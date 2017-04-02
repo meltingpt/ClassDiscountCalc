@@ -1,7 +1,3 @@
-//Melissa Tolentino
-//CPSC 121-01
-//HW09
-//Help from Cole Banta
 //Discount Calculator: determines the original price and the final discounted price- after tax and all sales have been applied.
 //Uses a header that has a class
 
@@ -33,13 +29,11 @@ void DiscountCalc::displayMenu() //Display the questions and get the user's inpu
 	cout <<"What percentage of a discount? ";
 	cin >> discountPerc;
  
-    cout <<"Any additional percentage off? ";
-    cin >> additionalPerc;
+        cout <<"Any additional percentage off? ";
+    	cin >> additionalPerc;
     	
-    cout <<"What's the tax? ";
-    cin >> tax;
-	
-   
+    	cout <<"What's the tax? ";
+    	cin >> tax;
 }
 
 float DiscountCalc::originalPrice() //Calculates the inital price with tax
@@ -59,8 +53,8 @@ float DiscountCalc::originalPrice() //Calculates the inital price with tax
 float DiscountCalc::discountedPrice() //Calculates the price after all the discounts
 {
 	float totalPrice = 0, //from originalPrice()
-          percentDiscTotal = 0,
-          percentage = 0,
+              percentDiscTotal = 0,
+              percentage = 0,
 	      discountPrice = 0;
 	
 
