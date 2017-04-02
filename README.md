@@ -3,8 +3,8 @@ This is a discount calculator that determines the original price and the final d
 
 What will be asked:
 
-Enter in an initial price:
-How many dollars off?
-What percentage of a discount?
-Any additional percentage off?
+Enter in an initial price: <<endl;
+How many dollars off? << endl;
+What percentage of a discount? << endl;
+Any additional percentage off? << endl;
 What's the tax?
