@@ -6,7 +6,7 @@
 #include "class DiscountCalc.h"
 using namespace std;
 
-DiscountCalc::DiscountCalc() //moved from calculator.cpp
+DiscountCalc::DiscountCalc()
 {
 	price = 70.0;
 	dollarsOff = 10;
@@ -21,7 +21,7 @@ void DiscountCalc::displayMenu() //Display the questions and get the user's inpu
     DiscountCalc myCalc;
 		
 	cout << "Enter in an initial price: ";
-	cin >> price; //no longer needs to be titled myCalc.price, same for all the cins below. No more need for "myCalc.   "
+	cin >> price;
 	
 	cout << "How many dollars off? ";
 	cin >> dollarsOff;
