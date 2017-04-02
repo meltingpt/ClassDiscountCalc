@@ -1,8 +1,8 @@
-//Discount Calculator header with class instead of struct
+//Discount Calculator header with class
 
 using namespace std;
 
-class DiscountCalc //changed from struct to class
+class DiscountCalc 
 {
 	private:
 		float dollarsOff,
@@ -11,9 +11,9 @@ class DiscountCalc //changed from struct to class
 		      price,
 		      tax;
 	public:
-		DiscountCalc(); //added DiscountCalc() from the calculator.cpp file into the class DiscountCalc.cpp
-		void displayMenu(); //moved from outside struct to inside of a class
-		float originalPrice(); //moved from outside struct to inside of a class
-		float discountedPrice(); //moved from outside struct to inside of a class
+		DiscountCalc(); 
+		void displayMenu(); 
+		float originalPrice();
+		float discountedPrice(); 
 
 };
