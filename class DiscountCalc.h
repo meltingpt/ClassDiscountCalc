@@ -1,7 +1,3 @@
-//Melissa Tolentino
-//CPSC 121-01
-//HW09
-//Help from Cole Banta
 //Discount Calculator header with class instead of struct
 
 using namespace std;
@@ -10,7 +6,7 @@ class DiscountCalc //changed from struct to class
 {
 	private:
 		float dollarsOff,
-			  additionalPerc,
+	              additionalPerc,
 		      discountPerc,
 		      price,
 		      tax;
