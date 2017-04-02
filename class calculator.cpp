@@ -1,7 +1,3 @@
-//Melissa Tolentino
-//CPSC 121-01
-//HW09
-//Help from Cole Banta
 //Discount Calculator using header with a class
 
 #include <iostream>
